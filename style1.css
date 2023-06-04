@@ -8,6 +8,7 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+
   #portfolio .portfolio--content .item {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
@@ -16,6 +17,7 @@
     -webkit-transition: all 0.8s ease-in-out;
     transition: all 0.8s ease-in-out;
   }
+
   #portfolio .portfolio--content .item h3 {
     color: #000000;
     font-weight: 700;
@@ -30,15 +32,18 @@
     -webkit-transition: all 0.8s ease-in-out;
     transition: all 0.8s ease-in-out;
   }
+
   #portfolio .portfolio--content .item img {
     -ms-flex-negative: 0;
         flex-shrink: 0;
     min-width: 100%;
     min-height: 100%;
   }
+
   #portfolio .portfolio--content .item:hover > h3 {
     opacity: 1;
   }
+  
   #portfolio .portfolio--content .item:hover > img {
     opacity: 0.3;
   }
